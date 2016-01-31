@@ -3,14 +3,13 @@
 //color: #112133; //drk blue
 //color: #ABA281; //tan
 //background-color: #511323; //red
+//font-family: 'Open Sans', sans-serif;
 
 body{
-  font-family: 'Playfair Display', serif;
   font-weight: 400;
   padding:0;
   margin: 0;
   background-color: #511323; //red
-
 }
 .main{
   margin: 0;
@@ -20,12 +19,41 @@ body{
   background-size: cover;
   h1{
     font-size: 84px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
   }
   h5{
     font-size: 34px;
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
   }
+}
+
+.sq{
+  padding-top: 5%;
+  background-color: #511323;
+  display: inline-block;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  width: 40%;
+  text-align: center;
+
+  h3{
+    margin: 0 auto;
+    color: #ABA281;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+  }
+}
+footer{
+  text-align: center;
+  margin: 0 auto;
+  padding-top:15px;
+  padding-bottom: 15px;
 }
 div{
   padding: 0;
@@ -42,6 +70,25 @@ div{
   height: 800px;
   padding: 0;
   margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align:center;
+
+  h2{
+    margin: 0 auto;
+    color: #ABA281;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Playfair Display', serif;
+
+  }
+  h3{
+    color: #ABA281;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    width: 75%;
+    padding-left:15%
+  }
 }
 .last{
   background-image:url(img/backgroundplain.jpg);
@@ -49,35 +96,57 @@ div{
   background-size: cover;
   padding: 0;
   margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  h5{
+    color: #ABA281;;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+  }
 }
+a{
+  text-decoration-style: none;
+  text-decoration: none;
+}
+button{
+  color: #ABA281;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #511323;
+  border: 0px;
+  border-radius: 5%;
+}
+section{
+  display: inline-block;
+  margin-top: 5%;
+}
+img{
+  max-height: 150px;
+}
+
 h1{
   font-size: 64px;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
 }
 h2{
   font-size: 48px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
 }
 h3{
   font-size: 34px;
   padding: 0;
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
 }
 h4{
   font-size: 24px;
   color:#511323;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
 }
 h5{
   font-size: 18px;
   color:#511323;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
 }
