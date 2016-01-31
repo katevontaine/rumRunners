@@ -17,12 +17,14 @@ body{
   background-image:url(img/backgroundsmal.jpg);
   width: 100%;
   background-size: cover;
+  background-color: #511323;
+  opacity: .8;
   h1{
     font-size: 84px;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
   }
-  h5{
+  h4{
     font-size: 34px;
     padding: 0;
     margin: 0;
@@ -65,7 +67,19 @@ footer{
   text-align: center;
   margin: 0 auto;
   padding-top:15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  background-color: #511323;
+  opacity: .8;
+  color: #ABA281;
+
+  h5{
+    color: #ABA281;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 div{
   padding: 0;
@@ -110,12 +124,14 @@ div{
   margin: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+
   h5{
     color: #ABA281;;
     text-align: center;
     margin: 0;
     padding: 0;
     padding-top: 13px;
+    padding-bottom: 3px;
   }
 }
 a{
@@ -123,13 +139,13 @@ a{
   text-decoration: none;
 }
 button{
-  color: #ABA281;
+  color: #511323;
   font-size: 24px;
   font-weight: 400;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   font-family: 'Playfair Display', serif;
-  background-color: #511323;
+  background-color: #ABA281;
   border: 0px;
   border-radius: 5%;
 }
