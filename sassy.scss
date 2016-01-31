@@ -30,7 +30,19 @@ body{
     font-weight: 400;
   }
 }
-
+.imgSection{
+  text-align: center;
+  margin: 0 auto;
+}
+.sqimg{
+  padding-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 30%;
+  background-color: #511323;
+  display: inline-block;
+  height: 250px;
+}
 .sq{
   padding-top: 5%;
   background-color: #511323;
