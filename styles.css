@@ -5,6 +5,8 @@ body {
   background-color: #511323; }
 
 .main {
+  height: 100%x;
+  display: block;
   margin: 0;
   padding: 0;
   background-image: url(img/backgroundsmal.jpg);
@@ -30,13 +32,19 @@ body {
 .sqimg {
   padding-left: 1%;
   margin-top: 1%;
-  margin-bottom: 1%;
-  width: 30%;
+  width: 300px;
   background-color: #511323;
   display: inline-block;
-  height: 250px; }
+  height: 300px; }
+  .sqimg img {
+    max-height: 255px;
+    padding: 0;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 6%; }
 
 .sq {
+  vertical-align: top;
   padding-top: 5%;
   background-color: #511323;
   display: inline-block;
@@ -56,7 +64,7 @@ footer {
   text-align: center;
   margin: 0 auto;
   padding-top: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   background-color: #511323;
   opacity: .8;
   color: #ABA281; }
@@ -79,8 +87,9 @@ div {
   color: #511323; }
 
 .second {
+  display: block;
   background-color: #511323;
-  height: 800px;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -89,7 +98,7 @@ div {
   .second h2 {
     margin: 0 auto;
     color: #ABA281;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100;
     font-family: 'Playfair Display', serif; }
   .second h3 {
@@ -98,6 +107,14 @@ div {
     font-weight: 400;
     width: 75%;
     padding-left: 15%; }
+
+.mid {
+  width: 80%; }
+
+.middle h5 {
+  font-size: 16px;
+  color: #ABA281;
+  font-weight: 100; }
 
 .last {
   background-image: url(img/backgroundplain.jpg);
@@ -137,6 +154,16 @@ section {
 img {
   max-height: 150px; }
 
+ul {
+  vertical-align: top;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Playfair Display', serif;
+  color: #ABA281;
+  padding: 5px; }
+  ul li {
+    font-size: 24px; }
+
 h1 {
   font-size: 64px;
   padding: 0;
@@ -157,3 +184,19 @@ h4 {
 h5 {
   font-size: 18px;
   color: #511323; }
+
+@media (max-width: 1000px) and (min-width: 1px) {
+  .sq {
+    display: block;
+    width: 90%; }
+  .second h3 {
+    font-size: 24px; }
+  .sqimg {
+    height: 200px;
+    width: 200px; }
+    .sqimg img {
+      max-height: 175px; }
+  .main h1 {
+    font-size: 64px; }
+  .main h3 {
+    font-size: 24px; } }
