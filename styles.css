@@ -86,10 +86,16 @@ div {
   text-align: center;
   color: #511323; }
 
-.second {
-  display: block;
+.background {
   background-color: #511323;
-  height: 100%;
+  opacity: .8;
+  width: 100%; }
+
+.second {
+  background-image: url(img/backgroundplain.jpg);
+  width: 100%;
+  display: block;
+  background-size: cover;
   padding: 0;
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -147,12 +153,21 @@ button {
   border: 0px;
   border-radius: 5%; }
 
+button:hover {
+  color: #ABA281;
+  border: #ABA281 2px solid;
+  font-size: 28px;
+  background-color: #511323; }
+
 section {
   display: inline-block;
   margin-top: 5%; }
 
 img {
-  max-height: 150px; }
+  max-height: 90px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1.5%; }
 
 ul {
   vertical-align: top;
@@ -203,4 +218,8 @@ h5 {
   .main h1 {
     font-size: 64px; }
   .main h3 {
-    font-size: 24px; } }
+    font-size: 24px; }
+  img {
+    display: block;
+    text-align: center;
+    margin: 0 auto; } }
