@@ -70,9 +70,15 @@ body{
     color: #ABA281;
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-weight: 100 !important;
   }
 }
+.secondPage{
+  background-color: #511323;
+  opacity: .8;
+  color: #ABA281;
+}
+
 footer{
   text-align: center;
   margin: 0 auto;
@@ -141,7 +147,7 @@ div{
 
   h5{
     font-size: 16px;
-    color: #ABA281;;
+    color: #ABA281;
     font-weight: 100;
   }
 }
@@ -170,6 +176,17 @@ a{
 button{
   color: #511323;
   font-size: 24px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #ABA281;
+  border: 0px;
+  border-radius: 5%;
+}
+.buttonTwo{
+  color: red !important;
+  font-size: 16px;
   font-weight: 400;
   padding: 10px;
   text-align: center;
@@ -233,9 +250,23 @@ h5{
   color: #ABA281;
   padding-left: 5px;
 }
+.consultant{
+  width:60%;
+  display:inline-block;
+  text-align:left;
+  padding-left: 5%;
+}
 ////////////////////////////////////////////////////////////
 
 @media (max-width:1000px) and (min-width:1px){
+  .consultant{
+    width:90%;
+    display:block;
+    text-align:center;
+  }
+  .chester{
+    display: block;
+  }
 .sq{
   display: block;
   width: 90%;
