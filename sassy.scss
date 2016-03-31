@@ -5,6 +5,13 @@
 //background-color: #511323; //red
 //font-family: 'Open Sans', sans-serif;
 
+//oranges
+//#d48243
+//#d99058
+//#ba692a
+//
+
+
 body{
   font-weight: 400;
   padding:0;
@@ -12,15 +19,15 @@ body{
   background-color: #511323; //red
 }
 .main{
-  height:100%x;
-  display: block;
-  margin: 0;
-  padding: 0;
-  background-image:url(img/backgroundsmal.jpg);
-  width: 100%;
-  background-size: cover;
+  // height:100%;
+  // display: block;
+  // margin: 0;
+  // padding: 0;
+  // background-image:url(img/backgroundsmal.jpg);
+  // width: 100%;
+  // background-size: cover;
   background-color: #511323;
-  opacity: .8;
+  // opacity: .9;
   h1{
     font-size: 84px;
     font-family: 'Playfair Display', serif;
@@ -38,14 +45,22 @@ body{
   text-align: center;
   margin: 0 auto;
 }
+
+// .sqimg:hover{
+//   img{
+//     display: none;
+//   }
+// }
+
+
 .sqimg{
   padding-left: 1%;
   margin-top: 1%;
   //margin-bottom: 1%;
-  width: 300px;
+  width: 312px;
   background-color: #511323;
   display: inline-block;
-  height: 300px;
+  height: 312px;
   img{
     max-height: 255px;
     padding: 0;
@@ -107,9 +122,17 @@ div{
   text-align: center;
   color: #511323;
 }
+.headerTwo{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  color: #511323;
+  background-color: #ABA281;
+  opacity:.7;
+}
 .background{
   background-color: #511323;
-  opacity: .8;
+  opacity: .9;
   width: 100%;
 }
 .second{
@@ -141,7 +164,7 @@ div{
   }
 }
 .mid{
-  width: 80%;
+  width: 100%;
 }
 .middle{
 
@@ -206,7 +229,7 @@ section{
   margin-top: 5%;
 }
 img{
-  max-height: 90px;
+  // max-height: 90px;
   display: block;
   margin: 0 auto;
   padding-top: 1.5%;
@@ -247,7 +270,7 @@ h5{
   color:#511323;
 }
 .social{
-  color: #ABA281;
+  color: #511323;
   padding-left: 5px;
 }
 .consultant{
@@ -255,6 +278,91 @@ h5{
   display:inline-block;
   text-align:left;
   padding-left: 5%;
+  padding-top: 3%;
+}
+
+.headerPic{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-img {
+  width: 100%;
+  height: 443px;
+  background: url(cropped2.jpeg) center center no-repeat;
+  background-size: cover;
+  color:#511323;
+  //color: #ABA281; //tan
+  //color: #1E3447; //med blue
+  //color: #112133; //drk blue
+  //color: #ABA281; //tan
+  //background-color: #511323; //red
+
+  &:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,#ABA281,#511323);
+		opacity: .5;
+  }
+
+}
+.newMain{
+  .header img{
+    max-height: 70px;
+  }
+  h1{
+    color:#511323;
+    font-size: 74px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  h4{
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+}
+.newMain2{
+  padding: 1%;
+  h1{
+    color:#ABA281;
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+  }
+  h4{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color:#ABA281;
+  }
+}
+.about{
+  color: #511323;
+  font-family: 'Playfair Display', serif;
+  padding: 3%;
+}
+.social2{
+  color: #511323;
+  text-decoration: none;
+  font-size: 25px;
+}
+.social2 a{
+  text-decoration: none;
+  list-style: none;
+}
+.social2 a:hover{
+  text-decoration: none;
+  color:white;
 }
 ////////////////////////////////////////////////////////////
 
@@ -277,8 +385,8 @@ h5{
   }
 }
 .sqimg{
-  height: 200px;
-  width: 200px;
+  height: 225px;
+  width: 225px;
   img{
     max-height: 175px;
   }
