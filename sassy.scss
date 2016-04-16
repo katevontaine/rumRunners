@@ -15,16 +15,16 @@
 body{
   font-weight: 400;
   padding:0;
-  margin: 0;
+  margin: -20px;
   background-color: #511323; //red
 }
 .main{
   // height:100%;
   // display: block;
-  // margin: 0;
-  // padding: 0;
+  margin: 0;
+  padding: 0;
   // background-image:url(img/backgroundsmal.jpg);
-  // width: 100%;
+  width: 100%;
   // background-size: cover;
   background-color: #511323;
   // opacity: .9;
@@ -99,12 +99,9 @@ footer{
   margin: 0 auto;
   padding-top:15px;
   padding-bottom: 25px;
-  background-color: #511323;
-  opacity: .8;
-  color: #ABA281;
 
   h5{
-    color: #ABA281;
+    color: #511323;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     font-weight: 100;
@@ -364,9 +361,79 @@ h5{
   text-decoration: none;
   color:white;
 }
-////////////////////////////////////////////////////////////
 
-@media (max-width:1000px) and (min-width:1px){
+.blocks {
+  background-size:cover;
+  height:300px;
+  width: 300px;
+  padding: 0;
+  display: inline-block;
+h3{
+  display: none;
+  color:#511323;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  z-index: 2;
+}
+h5{
+  display: none;
+  color:#511323;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  z-index: 2;
+}
+}
+// .blocks:hover{
+//   height: 300px;
+//   width: 300px;
+//   padding: 0;
+//   background-color:#ABA281;
+//   background-image: none;
+//   h3{
+//     display: inline-block;;
+//     z-index: 1;
+//   }
+//   h5{
+//     display: inline-block;
+//     z-index: 1;
+//   }
+//   }
+
+    .dist{
+      img{
+        display: inline-block;
+        padding: 0;
+        margin: -2px;
+        max-height: 230px;
+      }
+    }
+    .chester{
+      width: 25%;
+    }
+///////////////////////////////////////////////////////////
+
+@media (max-width:992px){
+.newMain2{
+  text-align: center;
+}
+
+.blocks:hover{
+h3, h3{
+  display: none;
+  background-color: none;
+  z-index: 0;
+
+}
+}
+  .dist{
+    img{
+      height: 200px;
+
+    }
+  }
+
   .consultant{
     width:90%;
     display:block;
@@ -384,13 +451,7 @@ h5{
     font-size: 24px;
   }
 }
-.sqimg{
-  height: 225px;
-  width: 225px;
-  img{
-    max-height: 175px;
-  }
-}
+
 .main{
   h1{
     font-size: 64px;
@@ -404,7 +465,49 @@ img{
   text-align: center;
   margin:0 auto;
 }
+h2{
+  font-size: 22px;
+}
+}
 
 
+//////
+
+@media (max-width:600px) and (min-width:1px){
+  .newMain2{
+    text-align: center;
+  }
+  .blocks:hover{
+    height: 150px;
+    width: 150px;
+  h3, h3{
+    display: none;
+    background-color: none;
+    z-index: 0;
+
+  }
+  }
+  .blocks{
+    height: 150px;
+    width: 150px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  .main h1{
+    font-size: 45px;
+  }
+  .chester{
+    width: 100%;
+  }
+  .main{
+    text-align: center;
+  }
+  .dist{
+    img{
+      height: 150px;
+
+    }
+  }
 
 }
